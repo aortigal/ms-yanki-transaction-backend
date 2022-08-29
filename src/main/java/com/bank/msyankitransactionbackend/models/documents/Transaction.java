@@ -20,7 +20,7 @@ public class Transaction extends Audit {
     @NotNull(message = "senderPhonesdasa must not be null")
     private String senderPhone;
 
-    @NotNull(message = "mont must not be null")
-    private float mont;
+    @NotNull(message = "amount must not be null")
+    private float amount;
 
 }
